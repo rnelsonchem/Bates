@@ -1,0 +1,77 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+
+/*
+ * Container
+ */
+div.container {
+    max-width:1170px;
+    min-width:90%;
+}
+
+/* 
+ * General cell
+ */
+div.cell { 
+    max-width:900px; 
+    width:80%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+/* 
+ * Text cells
+ */
+div.cell.text_cell { 
+    max-width:1100px; 
+    width:95%;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size:24px;
+    font-family: georgia;
+    line-height: 1.2em;
+}
+
+/*
+ * Code cells
+ */
+div.CodeMirror.cm-s-ipython {
+    font-size:16px;
+}
+
+div.input_area {
+    font-size:16px;
+}
+
+
+/*
+ * Input box, e.g. In [1]:
+ */
+div.prompt.input_prompt {
+    min-width:1em;
+    font-size:16px;
+}
+
+/*
+ * Output box, e.g. Out[1]:
+ */
+div.output {
+    font-size:16px;
+}
+
+/*
+ * Matplotlib images
+ * Doesn't seem to be possible after some hacking... May be due to resizable
+ * handle.
+ */
+/*
+img.ui-resizable {
+    display: block;
+    margin: 0 auto;
+}
+*/
