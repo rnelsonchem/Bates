@@ -37,3 +37,10 @@ Icon
 
 # Ipython Checkpoints
 .ipynb_checkpoints/
+
+# Vim files
+*.swp
+
+# Python pyc files
+*.pyc
+
