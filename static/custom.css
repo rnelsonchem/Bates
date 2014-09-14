@@ -42,6 +42,10 @@ div.cell.text_cell {
     line-height: 1.2em;
 }
 
+.rendered_html code {
+    color: #9E0000;
+}
+
 /*
  * Code cells
  */
