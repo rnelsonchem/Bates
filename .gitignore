@@ -44,3 +44,5 @@ Icon
 # Python pyc files
 *.pyc
 
+# Fibonacci number Fortran files
+fib*
