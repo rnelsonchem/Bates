@@ -7,7 +7,8 @@ def style(dpi=120):
     plt.rc('savefig', dpi=dpi)
 
     css_file = './static/custom.css'
-    css = HTML(open(css_file, "r").read())
+    css_txt = open(css_file, "r").read()
+    css = HTML(css_txt)
     display( css )
 # Uncomment this stuff for equation numbering
 #    mathjax = \
